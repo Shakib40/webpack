@@ -29,3 +29,6 @@ npm install webpack-dev-server --save-dev
 for watch mode
 
 "build:watch": "webpack --watch", 
+
+for image file loader
+npm install file-loader --save-dev

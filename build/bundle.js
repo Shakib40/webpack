@@ -7,15 +7,26 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/download.png":
+/*!**************************!*\
+  !*** ./src/download.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7e72c0b67953db5ded6de8f7908e2191.png\");\n\n//# sourceURL=webpack://webpackintroduction/./src/download.png?");
+
+/***/ }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.e(/*! import() */ \"src_index_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./index.css */ \"./src/index.css\"));\r\n// import image from './images'\r\n\r\n\r\nconst headerDiv = document.createElement('div');\r\nheaderDiv.innerText = \"Hello pack\";\r\nheaderDiv.classList.add('header');\r\ndocument.getElementById(\"header\").appendChild(headerDiv);\r\n\r\nconst seaction1Div = document.createElement('div');\r\nseaction1Div.innerText = \"Hello pack\";\r\nseaction1Div.classList.add('header');\r\ndocument.getElementById(\"header\").appendChild(seaction1Div);\r\n\r\n\r\n\r\n// document.createElement(\"img\").src = image;\r\n// document.getElementById(\"root\").appendChild( div );\r\n// document.getElementById(\"root1\").appendChild(div1);\r\n\r\n\n\n//# sourceURL=webpack://webpackintroduction/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _download_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./download.png */ \"./src/download.png\");\n__webpack_require__.e(/*! import() */ \"src_index_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./index.css */ \"./src/index.css\"));\r\n\r\n\r\n\r\n\r\nconst headerDiv = document.createElement('div');\r\nheaderDiv.classList.add('header');\r\n\r\nlet img = document.createElement(\"img\");\r\nimg.src = _download_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\r\n\r\nheaderDiv.append(img);\r\ndocument.getElementById(\"header\").appendChild(headerDiv);\r\n\r\n\n\n//# sourceURL=webpack://webpackintroduction/./src/index.js?");
 
 /***/ })
 

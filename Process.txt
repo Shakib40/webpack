@@ -1,13 +1,16 @@
 npm init -y
+for package.json
+"name": "webpackintroduction",
+"build": "webpack"
 
 
+npm install --save-dev webpack webpack-cli
 npm install --save-dev webpack-cli
-add "build" : "webpack"
+Run===  npm run build
 
-npm run build
 
 npm install --save-dev style-loader css-loader
-
+add---
 module: {
     rules: [
         {
@@ -16,3 +19,13 @@ module: {
         }
     ]
 }
+
+
+
+add in package.json
+"serve": "webpack serve"
+npm install webpack-dev-server --save-dev
+
+for watch mode
+
+"build:watch": "webpack --watch", 

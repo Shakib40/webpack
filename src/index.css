@@ -1,5 +1,7 @@
-.redColor{
-    color: red;
+.header{
+    width: 100%;
+    height: 15vh;
+    border: 1px solid blue;
 }
 
 .blueColor{

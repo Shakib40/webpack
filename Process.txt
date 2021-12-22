@@ -1,0 +1,18 @@
+npm init -y
+
+
+npm install --save-dev webpack-cli
+add "build" : "webpack"
+
+npm run build
+
+npm install --save-dev style-loader css-loader
+
+module: {
+    rules: [
+        {
+            test: /\.css$/,
+            use: ["style-loader" , "css-loader"],
+        }
+    ]
+}
